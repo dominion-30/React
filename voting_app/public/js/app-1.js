@@ -31,3 +31,6 @@ class ProductList extends React.Component{
     return(<div className="ui unstackable items">Hello, friends! I am a basic React component</div>);
   }
 }
+
+ReactDOM.render(<ProductList />,
+document.getElementById("content"));
