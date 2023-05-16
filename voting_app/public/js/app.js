@@ -74,13 +74,25 @@
 // );
 
 
+// class ProductList extends React.Component{
+//   render(){
+//     return(<div className='ui unstackable items'>
+//       Hello who is it
+//     </div>);
+//   }
+
+// }
+
+// ReactDOM.render(<ProductList />, document.getElementById("content"));
+
+// This is the start of the project in Full Stack React
+
 class ProductList extends React.Component{
   render(){
-    return(<div className='ui unstackable items'>
-      Hello who is it
+    return(<div className="ui unstackable items">
+      Hello, I am a basic React Component
     </div>);
   }
-
 }
 
-ReactDOM.render(<ProductList />, document.getElementById("content"));
+ReactDOM.render(<ProductList/>, document.getElementById('content'));
