@@ -40,6 +40,13 @@
 
 // );
 
+class ProductList extends React.Component{
+  render(){
+    return(<div className="ui unstackable items">
+      <Product/>
+    </div>);
+  }
+}
 
 class Product extends React.Component{
   render(){
@@ -64,3 +71,5 @@ class Product extends React.Component{
     );
   }
 }
+
+ReactDOM.render(<ProductList/>, document.getElementById("content"));
