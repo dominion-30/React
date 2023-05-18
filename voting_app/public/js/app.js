@@ -102,7 +102,7 @@
 
 class ProductList extends React.Component{
   render(){
-    const product = Seed.products[0]
+    const product = Seed.products[3]
     return(<div className="ui unstackable items">
       <Product 
       id={product.id}
